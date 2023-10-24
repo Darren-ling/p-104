@@ -1,0 +1,33 @@
+body{
+    background-color: burlywood;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}
+
+#title{
+    background-color: aliceblue;
+}
+
+#capture_button{
+    background-color: aqua;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+}
+
+#identify_button{
+    background-color: chartreuse;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+}
+
+#div1{
+    border: 2px greenyellow solid;
+    height: 300px;
+    width: 300px;
+}
+
+#div2{
+    border: 2px greenyellow solid;
+    height: 300px;
+    width: 300px;
+}

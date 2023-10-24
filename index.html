@@ -1,0 +1,35 @@
+<HTML>
+    <head>
+        <title>Face Recognition Web App</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    </head>
+    <body>
+        <center>
+        <h2 id="title">FACE RECOGNITION WEB APP</h2>
+        <h3>Model is trained to identify the following object:</h3>
+        <h5>Father</h5>
+        <h5>Mother</h5>
+        <h5>Sister</h5>
+        <h5>Brother</h5>
+        <h5>Webcam View</h5>
+        <div id="div1"></div>
+        <br>
+        <button id="capture_button" onclick="take_snapshot()">Capture Image</button>
+        <br>
+        <br>
+        <div id="div2"></div>
+        <br>
+        <button id="identify_button">Identify Image</button>
+        <h5>Object: <span id="span1"></span></h5>
+        <h5>Accuracy: <span id="span2"></span></h5>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</HTML>
